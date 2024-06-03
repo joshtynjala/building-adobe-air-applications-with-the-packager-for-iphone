@@ -1,15 +1,11 @@
 # Setting iPhone application properties in Flash Professional CS5
 
-<div>
-
 The Flash Professional CS5 iPhone Settings dialog box lets you define many basic
 properties of the iPhone application.
 
 To open the iPhone Settings dialog box:
 
 ![](../../img/dingbat.png) Choose File \> iPhone Settings.
-
-<div>
 
 #### General tab
 
@@ -61,10 +57,6 @@ The General tab includes the following iPhone-related settings:
   included by default. Add any other required assets to the Included Files list.
   Be sure to add the initial screen art file (Default.png) to the Included Files
   list.
-
-</div>
-
-<div>
 
 #### Deployment tab
 
@@ -121,10 +113,6 @@ application:
   - Deployment - Apple App Store—Choose this option to create a final version of
     the IPA file for deployment to the Apple App Store.
 
-</div>
-
-<div>
-
 #### Icons tab
 
 On the Icons tab, specify the location of the 29 x 29-pixel icon image, the 48 x
@@ -132,26 +120,6 @@ On the Icons tab, specify the location of the 29 x 29-pixel icon image, the 48 x
 and the 512 x 512-pixel icon image. See
 [iPhone icon and initial screen images](../iphone-icon-and-initial-screen-images.md).
 
-<div>
-
-<div>
-
 Note: Options for the 48 x 48-pixel and 72 x 72-pixel are not included in the
 version of the Packager for iPhone Preview included with Flash Professional CS5.
 In Flash Professional CS5 select Help \> Updates to add these options.
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

@@ -1,11 +1,7 @@
 # Other ways to improve display object performance
 
-<div>
-
 Hardware acceleration can speed up graphics performance in some classes of
 display objects Here are a few tips on how to maximize graphics performance:
-
-<div>
 
 - Try to limit the numbers of items visible on stage. Each item takes some time
   to render and composite with the other items around it.
@@ -48,15 +44,3 @@ display objects Here are a few tips on how to maximize graphics performance:
 
 - Limit the size of display objects to 1024 x 1024 pixels (or 2048 x 2048 on
   newer devices).
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

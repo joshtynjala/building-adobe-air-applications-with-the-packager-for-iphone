@@ -1,7 +1,5 @@
 # Install the application on the iPhone
 
-<div>
-
 To install the iPhone application for testing on an iPhone:
 
 1.  Open the iTunes application.
@@ -46,13 +44,3 @@ version.
 If iTunes displays an error when you try to install your application, see
 "Troubleshooting application installation problems" in
 [Installing an iPhone application](../../compiling-and-debugging-iphone-applications/installing-an-iphone-application.md).
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

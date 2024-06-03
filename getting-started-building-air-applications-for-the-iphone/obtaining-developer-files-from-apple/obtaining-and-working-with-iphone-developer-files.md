@@ -1,11 +1,7 @@
 # Obtaining and working with iPhone developer files
 
-<div>
-
 You need to obtain an iPhone developer certificate and provisioning profiles
 from Apple. You also need to convert the certificate into a P12 certificate.
-
-<div>
 
 #### Install iTunes
 
@@ -13,26 +9,14 @@ You need iTunes to install your application on your iPhone. Also, you use iTunes
 to determine the device ID of your iPhone. You will need to know the device ID
 when applying for an iPhone developer certificate.
 
-</div>
-
-<div>
-
 #### Apply for an iPhone developer certificate and create a provisioning profile
 
 If you have not already done so, sign up to be a registered iPhone developer at
 the Apple iPhone Dev Center site (<https://developer.apple.com/ios/>).
 
-<div>
-
-<div>
-
 Note: You do _not_ need the iPhone SDK or XCode to develop AIR applications for
 the iPhone. You do need to be a registered iPhone developer. And you need to
 obtain a developer certificate and a provisioning profile.
-
-</div>
-
-</div>
 
 1.  Log in to the iPhone Dev Center using your iPhone developer account ID.
 
@@ -110,15 +94,3 @@ obtain a developer certificate and a provisioning profile.
 
 You can now create a simple Hello World application. See
 [Creating a Hello World iPhone application with Flash Professional CS5](../creating-a-hello-world-iphone-application-with-flash-professional-cs5/index.md).
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

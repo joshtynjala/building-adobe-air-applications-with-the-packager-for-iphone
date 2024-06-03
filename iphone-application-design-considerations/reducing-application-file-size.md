@@ -1,7 +1,5 @@
 # Reducing application file size
 
-<div>
-
 Here are some tips on reducing the file size of your IPA file:
 
 - Check background bitmaps to see that they are the right size (not larger than
@@ -17,15 +15,3 @@ Here are some tips on reducing the file size of your IPA file:
 - Consider compressing sound files (by using a lower bit rate)
 
 - Remove any assets that are not used.
-
-<!-- -->
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

@@ -1,7 +1,5 @@
 # Debugging an iPhone application
 
-<div>
-
 You can debug the application on the development computer, with the application
 running in ADL. You can also debug the application on the iPhone.
 
@@ -9,8 +7,6 @@ Some AIR functionality that is not supported on the iPhone is still available
 when testing an application using ADL (on the development computer). Be aware of
 these differences when testing content on the desktop. For more information, see
 [ActionScript 3.0 APIs unsupported on mobile devices](../actionscript-3.0-support-for-mobile-devices/actionscript-3.0-apis-unsupported-on-mobile-devices.md).
-
-<div>
 
 #### Debugging the application on the development computer
 
@@ -28,10 +24,6 @@ the syntax:
 Replace _`appDescriptorFile`_ with the path to the application descriptor file.
 
 Be sure to include the `-profile mobileDevice` option.
-
-</div>
-
-<div>
 
 #### Debugging the application on the iPhone
 
@@ -73,10 +65,6 @@ When debugging an application installed on the iPhone, Flash Professional CS5
 supports all debugging features, including breakpoint control, stepping through
 code, and variable monitoring.
 
-</div>
-
-<div>
-
 #### Debugging with GPU rendering diagnostics
 
 The GPU rendering diagnostics feature lets you see how the application uses
@@ -90,8 +78,6 @@ The `-renderingdiagnostics` flag must directly follow the `-package` flag.
 
 The GPU rendering diagnostic feature displays colored rectangles for all display
 objects:
-
-<div>
 
 - Blue—The display object is not a bitmap or cached as a bitmap, and it is being
   rendered.
@@ -129,8 +115,6 @@ objects:
   re-rendered when it is scaled or rotated. Re-rendering also occurs when child
   display objects move or change.
 
-</div>
-
 Each colored rectangle fades after four screen redraw cycles, provided the
 reason for the coloration does not occur again during those cycles. However, if
 there are no changes onscreen, the diagnostic coloring does not change.
@@ -139,20 +123,12 @@ For example, consider a bitmap display object (a banana) in front of a vector
 background that is not cached as a bitmap. When the banana first renders, it is
 colored green. When the background first renders, it is colored blue:
 
-<div>
-
 ![](../img/banana1.png)
-
-</div>
 
 As the banana moves, the CPU must re-render the background, causing the blue
 shading to appear over the background:
 
-<div>
-
 ![](../img/banana2.png)
-
-</div>
 
 The blue shading over the background reflects redrawn regions that need to be
 sent to the GPU.
@@ -160,11 +136,7 @@ sent to the GPU.
 However, if the background is cached as a bitmap, when the banana moves, the
 rendering diagnostic feature displays no colored tints:
 
-<div>
-
 ![](../img/banana3.png)
-
-</div>
 
 The diagnostic feature displays no colored tints since the GPU retains the
 background bitmap. The GPU can composite the banana with the background without
@@ -175,20 +147,4 @@ Suppose the banana is a 2D display object that does not have its
 scales), the rendering diagnostic feature displays red. This indicates that the
 application has to upload a new version of the display object to the GPU:
 
-<div>
-
 ![](../img/banana4.png)
-
-</div>
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

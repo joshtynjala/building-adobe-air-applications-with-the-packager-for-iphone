@@ -1,7 +1,5 @@
 # Creating an iPhone application installer file from the command line
 
-<div>
-
 You can run the Packager for iPhone from the command line. The Packager for
 iPhone converts the SWF file byte code and other source files into a native
 iPhone application.
@@ -46,13 +44,9 @@ iPhone application.
 
             -target ipa-debug -connect bobroberts-mac.example.com
 
-      <div>
-
-      Note: The `-connect` option is not included in the Packager for iPhone
-      Preview included Flash Professional CS5. Update the Packager for iPhone by
-      selecting Help \> Updates in Flash Professional CS5.
-
-      </div>
+        > **Note:** The `-connect` option is not included in the Packager for
+        > iPhone Preview included Flash Professional CS5. Update the Packager
+        > for iPhone by selecting Help \> Updates in Flash Professional CS5.
 
       The `-connect` option is optional. If not specified, the resulting debug
       application will not attempt to connect to a hosted debugger.
@@ -126,13 +120,3 @@ following options to the pfi command:
 Replace _ALIAS_NAME_ with the alias of the certificate you want to use. When you
 point to a certificate stored in the Mac keychain, you do specify the alias
 instead of pointing to a certificate file location.
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

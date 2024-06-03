@@ -1,17 +1,9 @@
 # Important concepts
 
-<div>
-
 It is important to understand the concepts and workflow involved before
 developing an iPhone application using ActionScript 3.0.
 
-</div>
-
-<div>
-
 ## Glossary
-
-<div>
 
 The following terms are important to understand when building an iPhone
 application.
@@ -58,9 +50,10 @@ There are different types of provisioning profiles:
 - **Test provisioning profile** —Also known as an ad-hoc provisioning profile.
   Used to distribute a test version of the application to multiple users (and
   iPhone units). With this provisioning profile and the test application, users
-  can test your application without it being submitted to the App Store. Note:
-  you can also use a development provisioning profile to distribute test
-  applications to multiple devices.
+  can test your application without it being submitted to the App Store.
+
+  > **Note:** you can also use a development provisioning profile to distribute
+  > test applications to multiple devices.
 
 - **Distribution provisioning profile** —Used to build an iPhone application to
   submit your application to the App Store.
@@ -128,19 +121,9 @@ Unique Device ID
 A unique code identifying a specific iPhone. Also known as a UDID or a device
 ID.
 
-</div>
-
-</div>
-
-<div>
-
 ## Overview of the development workflow
 
-<div>
-
 When developing an application for the iPhone, you follow these steps:
-
-<div>
 
 1.  Install Flash Professional CS5 from Adobe.
 
@@ -203,8 +186,6 @@ When developing an application for the iPhone, you follow these steps:
 10. Install and test the application on your iPhone. Use iTunes to install the
     IPA file.
 
-</div>
-
 For ad hoc distribution, repeat this general process, but use a test
 provisioning profile instead of a development provisioning profile. For the
 final distribution of the application, repeat this process using the
@@ -217,15 +198,3 @@ instructions in
 
 For a quick tutorial on building a basic iPhone application, see
 [Creating a Hello World iPhone application with Flash Professional CS5](./creating-a-hello-world-iphone-application-with-flash-professional-cs5/index.md).
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

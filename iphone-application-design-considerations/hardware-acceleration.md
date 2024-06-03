@@ -1,7 +1,5 @@
 # Hardware acceleration
 
-<div>
-
 You can use OpenGL ES 1.1 hardware acceleration to enhance graphics performance
 in some applications. Games and other applications in which display objects are
 animated can benefit from hardware acceleration. Applications that use hardware
@@ -140,13 +138,3 @@ diagnostics" in
 For information on using the `cacheAsBitmapMatrix` property, see the
 "DisplayObject.cacheAsBitmapMatrix" section in
 [ActionScript APIs specific to mobile AIR applications](../actionscript-3.0-support-for-mobile-devices/actionscript-apis-specific-to-mobile-air-applications.md).
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

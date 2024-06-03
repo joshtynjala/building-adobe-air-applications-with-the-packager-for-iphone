@@ -1,7 +1,5 @@
 # Saving application state
 
-<div>
-
 Your application may quit at any time (for example when the phone rings).
 Consider saving the state of your application anytime it changes. For example,
 you can save settings to a file or a database in the application storage
@@ -11,13 +9,3 @@ application, it will restart when the call ends.
 
 Do not rely on the NativeApplication object dispatching an `exiting` event when
 the application quits; it may not.
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

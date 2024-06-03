@@ -1,7 +1,5 @@
 # Edit the initial screen graphic
 
-<div>
-
 Before you compiled your application, you created a Default.png file (see
 [Create icon art and initial screen art for the application](./create-icon-art-and-initial-screen-art-for-the-application.md)).
 This PNG file serves as the startup image while the application loads. When you
@@ -41,24 +39,6 @@ You should change this image to match the startup screen of your application
 
 The application now uses the new startup screen as it loads.
 
-<div>
-
-<div>
-
 Note: You can create any art you'd like for the Default.png file, as long as it
 is the correct dimensions (320 by 480 pixels). However, it is often best to have
 the Default.png image match the initial state of your application.
-
-</div>
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

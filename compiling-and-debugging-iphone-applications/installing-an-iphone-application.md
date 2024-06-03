@@ -1,11 +1,7 @@
 # Installing an iPhone application
 
-<div>
-
 To install your development application on an iPhone, you add the provisioning
 profile to the iPhone, and then you install the application on the iPhone.
-
-<div>
 
 #### Add the provisioning profile to the iPhone
 
@@ -25,10 +21,6 @@ To add the provisioning profile to the iPhone:
 
 For information on obtaining a provisioning profile, see
 [Obtaining developer files from Apple](../getting-started-building-air-applications-for-the-iphone/obtaining-developer-files-from-apple/index.md).
-
-</div>
-
-<div>
 
 #### Install the application
 
@@ -54,10 +46,6 @@ other IPA file:
 
 5.  Sync your iPhone.
 
-</div>
-
-<div>
-
 #### Troubleshooting application installation problems
 
 If iTunes displays an error when you try to install the application, check the
@@ -82,15 +70,3 @@ Also, check that your application's app ID matches the Apple app ID:
 
 You set the application's app ID in the iPhone Settings dialog box in Flash
 Professional CS5 or in the application descriptor file.
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

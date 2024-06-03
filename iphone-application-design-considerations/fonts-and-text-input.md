@@ -1,7 +1,5 @@
 # Fonts and text input
 
-<div>
-
 For best appearance, use device fonts. For example, the following fonts are
 device fonts on the iPhone:
 
@@ -84,13 +82,3 @@ web uses the keyboard to let the user control the application. However, on the
 iPhone, the virtual keyboard is only present when the user edits a text field.
 An iPhone application only dispatches keyboard events when the virtual keyboard
 is present.
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

@@ -1,7 +1,5 @@
 # ActionScript 3.0 APIs unsupported on mobile devices
 
-<div>
-
 Some ActionScript 3.0 APIs that are not supported for applications running in
 the mobile device profile (such as applications running on the iPhone).
 
@@ -15,8 +13,6 @@ profile that supports native windows (such as the desktop profile), check the
 The following table lists APIs that are not supported in the mobile device
 profile. It also lists properties you can check to determine when an application
 is running on a platform that offers support for an API.
-
-<div>
 
 | API                                           | Test for support                             |
 | --------------------------------------------- | -------------------------------------------- |
@@ -48,14 +44,10 @@ is running on a platform that offers support for an API.
 | StorageVolumeInfo                             | StorageVolumeInfo.isSupported                |
 | XMLSignatureValidator                         | XMLSignatureValidator.isSupported            |
 
-</div>
-
 You cannot write HTML- and JavaScript-based AIR applications for the mobile
 device profile.
 
 Some ActionScript 3.0 classes are only partially supported:
-
-<div>
 
 #### File
 
@@ -67,10 +59,6 @@ application storage directory. You can also call `File.createTempFile()` and
 iPhone applications do not support native file browser dialog boxes, such as the
 one provided by the `File.browseForOpen()` method.
 
-</div>
-
-<div>
-
 #### Loader
 
 In an iPhone application, you cannot use the `Loader.load()` method. However,
@@ -78,10 +66,6 @@ you cannot run any ActionScript code in SWF content loaded with the
 `Loader.load()` method. However, you can use assets in the SWF file (such as
 movie clips, images, fonts, and sounds in the library). You can also use the
 `Loader.load()` method to load image files.
-
-</div>
-
-<div>
 
 #### Video
 
@@ -92,19 +76,11 @@ You can use the `navigateToURL()` method to open an H.264 video outside the
 application. As the `request` parameter, pass a URLRequest object with a URL
 pointing to the video. The video launches in the video player of the iPhone.
 
-</div>
-
-<div>
-
 #### Text fields
 
 There are limitations for fonts and other settings of text fields on the iPhone.
 See
 [Fonts and text input](../iphone-application-design-considerations/fonts-and-text-input.md).
-
-</div>
-
-<div>
 
 #### Unsupported APIs and debugging using ADL
 
@@ -133,15 +109,3 @@ not interpreted and shaders have no graphical effect.
 
 For more information, see
 [Debugging an iPhone application](../compiling-and-debugging-iphone-applications/debugging-an-iphone-application.md).
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

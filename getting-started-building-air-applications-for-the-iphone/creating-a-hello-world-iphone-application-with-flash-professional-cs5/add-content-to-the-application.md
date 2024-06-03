@@ -1,7 +1,5 @@
 # Add content to the application
 
-<div>
-
 Next, add the text "Hello world!" to the application:
 
 1.  Select the Text Tool and click the stage.
@@ -34,13 +32,3 @@ Next, add the text "Hello world!" to the application:
     Flash Professional CS5 compiles the SWF content and displays a version of
     the application in the AIR Debug Launcher (ADL). This gives you a quick
     preview of your application.
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

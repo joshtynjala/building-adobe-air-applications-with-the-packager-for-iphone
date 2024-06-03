@@ -1,7 +1,5 @@
 # Information density
 
-<div>
-
 The physical size of the screen of mobile devices is smaller than on the
 desktop, although their pixel density is higher. Sharper text is nice to look
 at, but the glyphs have to have a minimal physical size to be legible.
@@ -22,13 +20,3 @@ each level of grouping.
 
 Try to simplify the labels and explanatory text required. For example, use
 sample input in text field to suggest the content and avoid a separate label.
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

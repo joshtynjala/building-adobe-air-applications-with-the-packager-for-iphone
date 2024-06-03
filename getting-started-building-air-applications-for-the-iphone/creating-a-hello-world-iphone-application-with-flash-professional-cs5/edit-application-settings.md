@@ -1,15 +1,11 @@
 # Edit application settings
 
-<div>
-
 **Important:** If you have not already done so, download the required developer
 applications and files for iPhone development. See
 [Obtaining developer files from Apple](../obtaining-developer-files-from-apple/index.md).
 
 In the Flash Professional CS5 iPhone Settings dialog box, define many basic
 properties of the iPhone application.
-
-<div>
 
 1.  Choose File \> iPhone OS Settings.
 
@@ -45,14 +41,10 @@ properties of the iPhone application.
     - Included files: Add the initial screen art file (Default.png) to the
       Included Files list.
 
-    <div>
-
-    Note: For this Hello World example, do not modify the settings from those
-    provided in these instructions. Some settings, such as the Version setting,
-    have specific restrictions. These restrictions are described in
-    [iPhone application settings](../../compiling-and-debugging-iphone-applications/iphone-application-settings/index.md).
-
-    </div>
+      > **Note:** For this Hello World example, do not modify the settings from
+      > those provided in these instructions. Some settings, such as the Version
+      > setting, have specific restrictions. These restrictions are described in
+      > [iPhone application settings](../../compiling-and-debugging-iphone-applications/iphone-application-settings/index.md).
 
 3.  In the Deployment tab, make the following settings:
 
@@ -91,17 +83,5 @@ properties of the iPhone application.
 
 6.  Save the file.
 
-</div>
-
 For details on the application settings, see
 [iPhone application settings](../../compiling-and-debugging-iphone-applications/iphone-application-settings/index.md).
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

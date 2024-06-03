@@ -1,12 +1,8 @@
 # Converting a developer certificate into a P12 file
 
-<div>
-
 To develop iPhone applications using Flash Professional CS5, you must use a P12
 certificate file. You generate this certificate based on the Apple iPhone
 developer certificate file you receive from Apple.
-
-<div>
 
 #### Convert the iPhone developer certificate to a P12 file on Mac OS
 
@@ -33,10 +29,6 @@ the P12 certificate format. To do this on Mac® OS:
 7.  You will be prompted to create a password that is used when you attempt to
     import this key on another computer.
 
-</div>
-
-<div>
-
 #### Convert an Apple developer certificate to a P12 file on Windows
 
 To develop iPhone applications using Flash CS5, you must use a P12 certificate
@@ -52,11 +44,7 @@ certificate file you receive from Apple.
 2.  If you are using the private key from the keychain on a Mac computer,
     convert it into a PEM key:
 
-    <div>
-
         openssl pkcs12 -nocerts -in mykey.p12 -out mykey.pem
-
-    </div>
 
 3.  You can now generate a valid P12 file, based on the key and the PEM version
     of the iPhone developer certificate:
@@ -66,15 +54,3 @@ certificate file you receive from Apple.
     If you are using a key from the Mac OS keychain, use the PEM version you
     generated in the previous step. Otherwise, use the OpenSSL key you generated
     earlier (on Windows).
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

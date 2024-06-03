@@ -1,7 +1,5 @@
 # Setting iPhone application properties in the application descriptor file
 
-<div>
-
 The application descriptor file is an XML file containing properties for the
 entire application, such as its name, version, copyright, and other settings.
 
@@ -213,17 +211,15 @@ Here are details on the settings in this application descriptor file:
 - The `<iPhone>` element contains the following child elements to specify
   iPhone-specific settings:
 
-  <div>
-
   **\<InfoAdditions\>\</InfoAdditions\>** contains the child elements specifying
-  key-value pairs to use as Info.plist settings for the application: <![CDATA[ 
-      <key>UIStatusBarStyle</key> 
-      <string>UIStatusBarStyleBlackOpaque</string> 
-      <key>UIRequiresPersistentWiFi</key> 
-      <string>NO</string> 
-      ]]>
+  key-value pairs to use as Info.plist settings for the application:
 
-  </div>
+      <![CDATA[
+      <key>UIStatusBarStyle</key>
+      <string>UIStatusBarStyleBlackOpaque</string>
+      <key>UIRequiresPersistentWiFi</key>
+      <string>NO</string>
+      ]]>
 
   In this example, the values set the status bar style of the application and
   state that the application does not require persistent Wi-Fi access.
@@ -254,13 +250,3 @@ Here are details on the settings in this application descriptor file:
 
   For information on other Info.plist settings, see the Apple developer
   documentation.
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

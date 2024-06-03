@@ -1,17 +1,11 @@
 # iPhone icon and initial screen images
 
-<div>
-
 All iPhone applications have icons which appear in the user interface of the
 iTunes application and on the iPhone.
-
-<div>
 
 #### iPhone application icons
 
 You define the following icons for an iPhone application:
-
-<div>
 
 - A 29-by-29–pixel icon—Spotlight search results on the iPhone and iPod touch
   use this icon.
@@ -27,8 +21,6 @@ You define the following icons for an iPhone application:
   used only for testing development versions of your application When you submit
   the final application to the Apple App Store, you submit the 512 image
   separately, as a JPG file. It is not included in the IPA.
-
-</div>
 
 In Flash Professional CS5, add these icons in Icons tab of the the iPhone
 Settings dialog box. See
@@ -56,10 +48,6 @@ your source image. To remove this default glare effect, add the following to the
 
 See
 [Setting iPhone application properties in the application descriptor file](./iphone-application-settings/setting-iphone-application-properties-in-the-application-descriptor-file.md).
-
-</div>
-
-<div>
 
 #### The initial screen art (Default.png)
 
@@ -111,17 +99,9 @@ the application. To take a screenshot of the startup screen of your application:
       bottom-left-hand corner. Then click the Email Photo button and send the
       image to yourself.
 
-<div>
-
-<div>
-
 Note: You can create any art you'd like for the Default.png file, as long as it
 is the correct dimensions. However, it is often best to have the Default.png
 image match the initial state of your application.
-
-</div>
-
-</div>
 
 Do not include text in the Default.png image if your application is localized
 into multiple languages. The Default.png is static, and the text would not match
@@ -134,15 +114,3 @@ Files list in the iPhone settings dialog box. See
 When compiling using the PFI application on the command line, be sure to
 reference this file in the list of included assets. See
 [Creating an iPhone application installer file from the command line](./compiling-an-iphone-application-installer-ipa-file/creating-an-iphone-application-installer-file-from-the-command-line.md).
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

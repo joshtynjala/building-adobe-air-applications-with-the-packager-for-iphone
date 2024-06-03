@@ -1,7 +1,5 @@
 # Creating a Hello World iPhone application with Flash Professional CS5
 
-<div>
-
 **Important:** Before you create the application, download the required
 developer applications and files. See
 [Obtaining developer tools from Adobe](../obtaining-developer-tools-from-adobe.md)
@@ -15,13 +13,3 @@ and
 - [Compiling the IPA file](./compiling-the-ipa-file.md)
 - [Install the application on the iPhone](./install-the-application-on-the-iphone.md)
 - [Edit the initial screen graphic](./edit-the-initial-screen-graphic.md)
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

@@ -1,7 +1,5 @@
 # Create icon art and initial screen art for the application
 
-<div>
-
 All iPhone applications have icons that appear in the user interface of the
 iTunes application and on the iPhone screen.
 
@@ -24,27 +22,9 @@ the iPhone. You define the initial image in a PNG file:
 2.  Edit the file so that it is 320 pixels wide and 480 pixels high. For now,
     the content can be a plain white rectangle. (You will change this later.)
 
-<div>
-
-<div>
-
 Note: When you submit an application to the Apple App Store, you use a JPG
 version (not a PNG version) of the 512-pixel file. You use the PNG version while
 testing development versions of an application.
 
-</div>
-
-</div>
-
 For detailed information on these graphics, see
 [iPhone icon and initial screen images](../../compiling-and-debugging-iphone-applications/iphone-icon-and-initial-screen-images.md).
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

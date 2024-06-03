@@ -4,8 +4,8 @@ You can use Adobe® Flash® Platform tools and ActionScript® 3.0 code to build
 Adobe® AIR® applications for the iPhone and iPod Touch. These applications are
 distributed, installed, and run just like other iPhone applications.
 
-Note: The remainder of this document refers to the iPhone and iPod touch
-together as simply "the iPhone."
+> **Note:** The remainder of this document refers to the iPhone and iPod touch
+> together as simply "the iPhone."
 
 The Packager for iPhone® is included with Adobe® Flash® Professional CS5. The
 Packager for iPhone compiles ActionScript 3.0 bytecode into native iPhone

@@ -1,11 +1,7 @@
 # Generating a certificate signing request
 
-<div>
-
 To obtain a developer certificate, you generate a certificate signing request
 file, which you submit at the Apple iPhone Dev Center site.
-
-<div>
 
 #### Generate a certificate signing request on Mac OS
 
@@ -35,18 +31,12 @@ Certificate Assistant \> Request a Certificate from a Certificate Authority.
     [iPhone developer site](https://developer.apple.com/ios/). (See "Apply for
     an iPhone developer certificate and create a provisioning profile".)
 
-</div>
-
-<div>
-
 #### Generate a certificate signing request on Windows
 
 For Windows developers, it may be easiest to obtain the iPhone developer
 certificate on a Mac computer. However, it is possible to obtain a certificate
 on a Windows computer. First, you create a certificate signing request (a CSR
 file) using OpenSSL:
-
-<div>
 
 1.  Install OpenSSL on your Windows computer. (Go to
     <https://wiki.openssl.org/index.php/Binaries>.)
@@ -78,17 +68,3 @@ file) using OpenSSL:
 5.  Upload the CSR file to Apple at the
     [iPhone developer site](https://developer.apple.com/ios/). (See "Apply for
     an iPhone developer certificate and create a provisioning profile".)
-
-</div>
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

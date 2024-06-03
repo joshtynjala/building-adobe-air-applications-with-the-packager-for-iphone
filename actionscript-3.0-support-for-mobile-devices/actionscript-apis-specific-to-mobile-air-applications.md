@@ -1,15 +1,7 @@
 # ActionScript APIs specific to mobile AIR applications
 
-<div>
-
-<div>
-
 The following APIs are available only in AIR applications on mobile devices.
 They are not currently functional in Flash Player or desktop versions of AIR.
-
-</div>
-
-<div>
 
 #### Screen orientation API
 
@@ -112,10 +104,6 @@ As the Stage rotates it resizes, and the Stage object dispatches a `resize`
 event. You can resize and reposition display objects on the Stage in response to
 the `resize` event.
 
-</div>
-
-<div>
-
 #### NativeApplication.systemIdleMode and SystemIdleMode
 
 The `NativeApplication.systemIdleMode` property lets you prevent the iPhone from
@@ -124,14 +112,10 @@ touch screen interaction for some period. Idle mode can cause the screen to dim.
 It can also cause the iPhone to go into lock mode. This property can be set to
 one of two values:
 
-<div>
-
 - `SystemIdleMode.NORMAL` —The iPhone follows the normal idle mode behavior.
 
 - `SystemIdleMode.KEEP_AWAKE` —The application attempts to prevent the iPhone
   from going into idle mode.
-
-</div>
 
 This functionality is only supported on mobile devices. It is not supported in
 AIR applications running on desktop operating systems. In an application running
@@ -140,15 +124,7 @@ effect.
 
 The following code shows how to disable the iPhone idle mode:
 
-<div>
-
     NativeApplication.nativeApplication.systemIdleMode = SystemIdleMode.KEEP_AWAKE;
-
-</div>
-
-</div>
-
-<div>
 
 #### CameraRoll
 
@@ -165,19 +141,13 @@ static `CameraRoll.supportsAddBitmapData` property.
 After you call the `addBitmapData()` method, the CameraRoll object dispatches
 one of two events:
 
-<div>
-
 - `complete` —The operation completed successfully.
 
 - `error` —There was an error. For example, perhaps there is not enough free
   space on the iPhone to store the image.
 
-</div>
-
 The following code adds an image of the stage (a screen capture) to the camera
 roll:
-
-<div>
 
     if (CameraRoll.supportsAddBitmapData)
     {
@@ -203,12 +173,6 @@ roll:
         // Notify user.
     }
 
-</div>
-
-</div>
-
-<div>
-
 #### DisplayObject.cacheAsBitmapMatrix
 
 The `cacheAsBitmapMatrix` property is a Matrix object that defines how a display
@@ -229,34 +193,22 @@ appropriate to conform to the display matrix.
 Both CPU- and GPU-based rendering benefit from the use of the
 `cacheAsBitmapMatrix` property, although GPU rendering typically benefits more.
 
-<div>
-
 Note: To use the hardware acceleration, set the Rendering to GPU in the General
 tab of the iPhone Settings dialog box in Flash Professional CS5. (Or set the
 `renderMode` property to `gpu` in the application descriptor file.)
 
-</div>
-
 For example, the following code uses an untransformed bitmap representation of
 the display object:
-
-<div>
 
     matrix:Matrix = new Matrix(); // creates an identity matrix
     mySprite.cacheAsBitmapMatrix = matrix;
     mySprite.cacheAsBitmap = true;
 
-</div>
-
 The following code uses a bitmap representation that matches the current
 rendering:
 
-<div>
-
     mySprite.cacheAsBitmapMatrix = mySprite.transform.concatenatedMatrix;
     mySprite.cacheAsBitmap = true;
-
-</div>
 
 Usually, the identity matrix ( `new Matrix()`) or `transform.concatenatedMatrix`
 suffices. However, you can use another matrix, such as a scaled-down matrix, to
@@ -265,14 +217,10 @@ a `cacheAsBitmapMatrix` matrix that is scaled by 0.5 on the x- and y-axes. The
 bitmap object that the GPU uses is smaller, however the GPU adjusts its size to
 match the `transform.matrix` property of the display object.:
 
-<div>
-
     matrix:Matrix = new Matrix(); // creates an identity matrix
     matrix.scale(0.5, 0.5); // scales the matrix
     mySprite.cacheAsBitmapMatrix = matrix;
     mySprite.cacheAsBitmap = true;
-
-</div>
 
 Generally, choose a matrix that transforms the display object to the size that
 it will appear in the application. For example, if your application displays the
@@ -296,16 +244,10 @@ You can use the GPU rendering diagnostics feature to diagnose GPU usage in debug
 builds of your application. For more information, see
 [Debugging an iPhone application](../compiling-and-debugging-iphone-applications/debugging-an-iphone-application.md).
 
-</div>
-
-<div>
-
 #### Networking notes
 
 Using the following URL schemes with the `nativigateToURL()` function causes a
 document to open in an external application:
-
-<div>
 
 <table>
 <colgroup>
@@ -351,21 +293,7 @@ navigateToURL(urlReq);</code></pre>
 </tbody>
 </table>
 
-</div>
-
 An iPhone application may rely on installed self-signed root certificates for
 server authentication during a secure transaction, such as an https request. A
 server should send not just the leaf certificate but also all intermediate
 certificates chaining to the root certificate.
-
-</div>
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>

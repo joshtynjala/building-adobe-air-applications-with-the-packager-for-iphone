@@ -1,7 +1,5 @@
 # Managing certificates, device IDs, application IDs, and provisioning profiles
 
-<div>
-
 You can manage certificates, device IDs, app IDs, and provisioning profiles at
 the Apple iPhone Dev Center site (<https://developer.apple.com/ios/>). Go to the
 iPhone Developer Program Portal section of the site.
@@ -25,13 +23,3 @@ iPhone Developer Program Portal section of the site.
   App Store or create an Ad Hoc version of your application. This section has a
   link to the iTunes Connect site, which you use to submit an application to the
   App Store.
-
-</div>
-
-<div>
-
-<div>
-
-</div>
-
-</div>
