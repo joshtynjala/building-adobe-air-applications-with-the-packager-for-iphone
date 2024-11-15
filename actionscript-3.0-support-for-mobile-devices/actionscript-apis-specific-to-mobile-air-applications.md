@@ -193,9 +193,9 @@ appropriate to conform to the display matrix.
 Both CPU- and GPU-based rendering benefit from the use of the
 `cacheAsBitmapMatrix` property, although GPU rendering typically benefits more.
 
-Note: To use the hardware acceleration, set the Rendering to GPU in the General
-tab of the iPhone Settings dialog box in Flash Professional CS5. (Or set the
-`renderMode` property to `gpu` in the application descriptor file.)
+> **Note:** To use the hardware acceleration, set the Rendering to GPU in the
+> General tab of the iPhone Settings dialog box in Flash Professional CS5. (Or
+> set the `renderMode` property to `gpu` in the application descriptor file.)
 
 For example, the following code uses an untransformed bitmap representation of
 the display object:

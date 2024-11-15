@@ -39,6 +39,6 @@ You should change this image to match the startup screen of your application
 
 The application now uses the new startup screen as it loads.
 
-Note: You can create any art you'd like for the Default.png file, as long as it
-is the correct dimensions (320 by 480 pixels). However, it is often best to have
-the Default.png image match the initial state of your application.
+> **Note:** You can create any art you'd like for the Default.png file, as long
+> as it is the correct dimensions (320 by 480 pixels). However, it is often best
+> to have the Default.png image match the initial state of your application.

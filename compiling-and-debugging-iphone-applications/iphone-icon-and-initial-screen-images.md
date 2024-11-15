@@ -99,9 +99,9 @@ the application. To take a screenshot of the startup screen of your application:
       bottom-left-hand corner. Then click the Email Photo button and send the
       image to yourself.
 
-Note: You can create any art you'd like for the Default.png file, as long as it
-is the correct dimensions. However, it is often best to have the Default.png
-image match the initial state of your application.
+> **Note:** You can create any art you'd like for the Default.png file, as long
+> as it is the correct dimensions. However, it is often best to have the
+> Default.png image match the initial state of your application.
 
 Do not include text in the Default.png image if your application is localized
 into multiple languages. The Default.png is static, and the text would not match

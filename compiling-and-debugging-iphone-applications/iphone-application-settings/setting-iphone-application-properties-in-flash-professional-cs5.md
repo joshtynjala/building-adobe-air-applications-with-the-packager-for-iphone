@@ -120,6 +120,7 @@ On the Icons tab, specify the location of the 29 x 29-pixel icon image, the 48 x
 and the 512 x 512-pixel icon image. See
 [iPhone icon and initial screen images](../iphone-icon-and-initial-screen-images.md).
 
-Note: Options for the 48 x 48-pixel and 72 x 72-pixel are not included in the
-version of the Packager for iPhone Preview included with Flash Professional CS5.
-In Flash Professional CS5 select Help \> Updates to add these options.
+> **Note:** Options for the 48 x 48-pixel and 72 x 72-pixel are not included in
+> the version of the Packager for iPhone Preview included with Flash
+> Professional CS5. In Flash Professional CS5 select Help \> Updates to add
+> these options.

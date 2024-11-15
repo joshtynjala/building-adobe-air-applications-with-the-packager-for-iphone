@@ -14,9 +14,9 @@ when applying for an iPhone developer certificate.
 If you have not already done so, sign up to be a registered iPhone developer at
 the Apple iPhone Dev Center site (<https://developer.apple.com/ios/>).
 
-Note: You do _not_ need the iPhone SDK or XCode to develop AIR applications for
-the iPhone. You do need to be a registered iPhone developer. And you need to
-obtain a developer certificate and a provisioning profile.
+> **Note:** You do _not_ need the iPhone SDK or XCode to develop AIR
+> applications for the iPhone. You do need to be a registered iPhone developer.
+> And you need to obtain a developer certificate and a provisioning profile.
 
 1.  Log in to the iPhone Dev Center using your iPhone developer account ID.
 
